@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="CSS/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="CSS/Style.css"  media="screen,projection"/>
+    <link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+    <title>Prueba de Forms y LocalStorage</title>
+    
+  </head>
+  <body>
+  	<nav class= "navbar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Prueba</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+      </div>
+    </nav>
+	
+	<div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12 xs3 m6 l6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s12 xs3 m6 l6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 xs12 m12 l12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 xs12 m12 l12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+		<a class="waves-effect waves-light btn green" type="submit"><i class="material-icons right">send</i>Submit</a>
+        <div class="row">
+          <div class="col s12 xs12 m12 l12">
+            This is an inline input field:
+            <div class="input-field inline">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+	
+  </body>
+</html>
